@@ -1,6 +1,6 @@
-# visit-counter technical needs
+# visit-counter technical needs. 
 
- Scenario: Recover across restarts of the serverthat runs the visit-counter. 
+Scenario: Recover across restarts of the serverthat runs the visit-counter. 
 
   Given entry card is sensor input and data is stored on server.  
 
