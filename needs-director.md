@@ -4,8 +4,6 @@ Scenario: Show patient visits during working days and holidays
 
   Given EntryId as sensor input and details are stored in database.
   
-  It is accessed by computer. 
-  
   When patient arrives an fresh EntryId is issued in his name.
   
   On entering EntryId is swiped at entry point.
