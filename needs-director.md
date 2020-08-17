@@ -2,11 +2,11 @@
 
 Scenario: Show patient visits during working days and holidays
 
-  Given "entryid" as sensor input and details are stored in database.
+  Given "entry id" as sensor input and details are stored in database.
   
-  When patient arrives an fresh "entryid" is issued in his name.
+  When patient arrives an fresh "entry id" is issued in his name.
   
-  On entering "entryid" is swiped at entry point.
+  On entering "entry id" is swiped at entry point.
   
   Count increases by 1.
   
