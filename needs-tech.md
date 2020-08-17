@@ -2,14 +2,14 @@
 
 Scenario: Recover across restarts of the server
 
-that runs the visit-counter
+   that runs the visit-counter
 
-Given entry card is sensor input and 
+   Given entry card is sensor input and 
 
-data is stored on server 
+   data is stored on server 
 
-When the server goes down and restarts
+  When the server goes down and restarts
 
-Then restore the data from backups or
+  Then restore the data from backups or
 
-shared disk
+  shared disk
