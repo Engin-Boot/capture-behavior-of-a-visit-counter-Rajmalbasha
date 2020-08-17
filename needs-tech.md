@@ -1,14 +1,15 @@
-# Visit-counter technical needs
+# visit-counter technical needs
 
 Scenario: Recover across restarts of the server
+
 that runs the visit-counter
 
-  Given
-  When
-  Then
+Given entry card is sensor input and 
 
-Scenario: Reconcile counts if the sensor is offline for a while
+data is stored on server 
 
-  Given
-  When
-  Then
+When the server goes down and restarts
+
+Then restore the data from backups or
+
+shared disk
