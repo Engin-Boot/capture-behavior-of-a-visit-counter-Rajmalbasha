@@ -2,10 +2,12 @@
 
 Scenario: Show patient visits during working days and holidays
 
-Given entry card issuer issues card in patient name and
+Given calendar synced entry card issuer issues card in patient name and
 
 contains accompanied by count as well, database stores data
 
-When the director press patient-count button
+When director enters date/day and press patient-count button
 
 provided entry card issuer and database working
+
+Then display count on particular day
