@@ -1,3 +1,5 @@
 # Visit-counter for a director
 
-Scenario
+Scenario: Show patient visits during working days and holidays
+
+Given
