@@ -18,4 +18,4 @@ Given an active sensor senses the available parking slots
 
 When the available parking slots falls below a threshold limit(<5 slots)
 
-Then the remaining parking slots should be freezed.
+Then freeze remaining parking slots.
