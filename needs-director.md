@@ -2,4 +2,4 @@
 
 Scenario: Show patient visits during working days and holidays
 
-Given
+Given entry card issuer issues card in patient name and contains accompanied by count as well
